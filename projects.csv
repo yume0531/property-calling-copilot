@@ -1,0 +1,8 @@
+project_name,location,area_tags,commute_tags,min_price,max_price,bedroom,location_score,price_score,space_score,facility_score,ciq_score,developer_score
+Sample Project A,JB Sentral,"JB Sentral;CIQ","CIQ;Singapore",520000,650000,3,0.95,0.80,0.75,0.85,0.98,0.85
+Sample Project B,Iskandar Puteri,"Iskandar Puteri","Second Link;Singapore",480000,620000,3,0.82,0.88,0.90,0.88,0.70,0.88
+Sample Project C,Mount Austin,"Mount Austin","Tebrau;Austin",420000,580000,3,0.86,0.94,0.88,0.92,0.45,0.84
+Sample Project D,Bukit Indah,"Bukit Indah","Second Link;Mall",450000,600000,2,0.89,0.91,0.78,0.86,0.62,0.83
+Sample Project E,Kulai,"Kulai","Kulai;Airport",300000,450000,3,0.68,0.98,0.92,0.76,0.25,0.78
+Sample Project F,JB Sentral,"JB Sentral;CIQ","CIQ;Singapore",650000,800000,2,0.97,0.68,0.82,0.89,0.99,0.90
+Sample Project G,Iskandar Puteri,"Iskandar Puteri","Second Link;Singapore",650000,850000,4BR,0.84,0.72,0.95,0.91,0.72,0.90
