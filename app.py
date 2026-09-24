@@ -14,7 +14,7 @@ projects = load_projects()
 st.sidebar.header("客户画像")
 purpose = st.sidebar.radio("① 购房目的", ["🏠 自住", "💰 投资"])
 budget = st.sidebar.number_input("② 预算（RM）", min_value=0, max_value=5000000, value=600000, step=50000)
-locations = ["Singapore / CIQ", "JB Sentral", "Iskandar Puteri", "Bukit Indah", "Mount Austin", "Kulai", "未确定"]
+locations = ["Singapore / CIQ", "JB Sentral", "Iskandar Puteri", "Bukit Indah", "Mount Austin", "Meridin East / Pasir Gudang", "Kulai", "未确定"]
 location = st.sidebar.selectbox("③ 工作 / 生活区域", locations)
 bedrooms_list = ["不限", "1BR", "2BR", "3BR", "4BR+"]
 bedrooms = st.sidebar.selectbox("④ 房型", bedrooms_list)
@@ -35,7 +35,8 @@ def location_match(client, row):
         "JB Sentral": ["jb sentral", "ciq"],
         "Iskandar Puteri": ["iskandar puteri"],
         "Bukit Indah": ["bukit indah"],
-        "Mount Austin": ["mount austin"],
+        "Mount Austin": ["mount austin", "crest@austin", "tebrau"],
+        "Meridin East / Pasir Gudang": ["meridin east", "pasir gudang", "masai"],
         "Kulai": ["kulai"],
     }
     hits = sum(k in text for k in keys[client])
